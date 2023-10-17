@@ -1,0 +1,45 @@
+* {
+    margin: 10px;
+}
+
+[class]:not(.header){
+    margin-left: 220px;
+}
+
+.header {
+    width: 200px; /* Ширина меню */
+    height: 100vh; /* Высота меню (100% высоты экрана) */
+    background-color: #f2f2f2; /* Цвет фона меню */
+    position: fixed; /* Фиксированное позиционирование */
+    left: 0; /* Прижимаем к левой стороне экрана */
+    top: 0; /* Прижимаем к верхней стороне экрана */
+    padding-top: 20px; /* Отступ сверху */
+}
+
+img.profile-picture {
+   height: 100px;
+    width: 100px;
+}
+
+.header a {
+    text-decoration: none;
+}
+a button {
+    width: 150px;
+    margin: 5px;
+    padding: 0px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+#comments {
+    width: 600px;
+    height: 600px;
+}
